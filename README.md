@@ -8,7 +8,7 @@ Repositório aberto de Skills para Agentes de IA, originais ou coletado de repos
 
 Guia para escrever componentes acessíveis em React Native — rótulos de leitores de tela, funções, estados, gerenciamento de foco, alvos de toque e padrões específicos da plataforma para VoiceOver e TalkBack. Use ao escrever ou modificar código de interface do usuário em React Native.
 
-**fork from** https://github.com/rushatgabhane/react-native-accessibility-skill[https://github.com/rushatgabhane/react-native-accessibility-skill]
+**fork from** [https://github.com/rushatgabhane/react-native-accessibility-skill]
 
 
 ## Instalação e uso
