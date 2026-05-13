@@ -1,40 +1,24 @@
-# React Native Accessibility — Agent Skill
+# AI Agent Skills
 
-Helps AI coding assistants write accessible React Native code. 10 rules covering labels, roles, states, focus, touch targets, announcements, modals, motion, color, and custom controls. 5 reference docs for props, screen readers, platform differences, focus management, and testing.
+Repositório aberto de Skills para Agentes de IA, originais ou coletado de repositórios abertos - nesse caso, com o devido crédito.
 
-Built on patterns from the [React Native docs](https://reactnative.dev/docs/accessibility) and production apps.
+## Skills
 
-## Install for Claude Code
+#### React Native Accessibility
+Guia para escrever componentes acessíveis em React Native — rótulos de leitores de tela, funções, estados, gerenciamento de foco, alvos de toque e padrões específicos da plataforma para VoiceOver e TalkBack. Use ao escrever ou modificar código de interface do usuário em React Native.
+**fork from** https://github.com/rushatgabhane/react-native-accessibility-skill[https://github.com/rushatgabhane/react-native-accessibility-skill]
 
-```bash
-# Clone into your project
-git clone https://github.com/rushatgabhane/react-native-accessibility-skill.git /tmp/rn-a11y-skill
-cp -r /tmp/rn-a11y-skill/react-native-accessibility .claude/skills/react-native-accessibility
-rm -rf /tmp/rn-a11y-skill
-```
+## Instalação e uso
 
-For personal use (all projects):
+### Antigravity
 
-```bash
-cp -r /tmp/rn-a11y-skill/react-native-accessibility ~/.claude/skills/react-native-accessibility
-```
+**Global**: ~/.gemini/antigravity/skills/<pasta da skill>
+**Projeto**: - [pasta do projeto]/.agents/skills/<pasta-da-skill>/
 
-## Use
+### Claude
 
-```
-/react-native-accessibility
-```
-
-The skill also activates automatically when writing React Native UI code.
-
-## Other AI Tools
-
-This skill follows the [Agent Skills](https://agentskills.io) open standard and works with Cursor, Codex, Gemini, and other compatible tools.
-
-## Contributing
-
-Keep markdown concise — there is a token cost to loading skills. Focus on what LLMs get wrong. Include incorrect/correct code examples.
+**Global**: ~/.claude/skills/<pasta da skill>
+**Projeto**: - [pasta do projeto]/.claude/skills/<pasta-da-skill>/ 
 
 ## License
-
 MIT
